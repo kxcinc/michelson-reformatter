@@ -1,0 +1,7 @@
+(executable
+ (name michelson_reformatter)
+ (promote (until-clean))
+ (libraries kxclib tezos-client-006-PsCARTHA)
+ (flags (:standard -open Tezos_base__TzPervasives)))
+
+(vendored_dirs vendors)
